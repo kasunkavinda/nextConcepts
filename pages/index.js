@@ -12,9 +12,13 @@ export default function Home() {
   };
   return (
     <div>
-      <p>Home page</p>
+      <p>Home pagee</p>
       <Link href="/product">
         <a>product</a>
+      </Link>
+
+      <Link href="/users">
+        <a>Users</a>
       </Link>
 
       <button onClick={handleClick}>Place Order</button>
